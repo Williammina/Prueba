@@ -1,0 +1,31 @@
+nav, .Contenedor, footer, article, header, .principal, aside{
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    border-radius: 0.9cm;
+}
+
+nav{
+    background-color: rgb(207, 241, 11);
+}
+.Contenedor{
+    background-color: rgb(72, 243, 4);
+}
+footer{
+    background-color: rgb(201, 165, 66);
+}
+article{
+    background-color: burlywood;
+}
+header{
+    background-color: chocolate;
+}
+.principal{
+    background-color: cyan;
+    display: inline-block;;
+}
+aside{
+    background-color: darkmagenta;
+    display: inline-block;
+    width: 20%;
+}
