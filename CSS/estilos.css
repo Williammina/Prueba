@@ -8,7 +8,7 @@ nav, .Contenedor, footer, article,.principal, header, aside
 }
 
 nav{
-    background-color: rgb(207, 241, 11);
+    background-color: rgb(63, 71, 17);
 }
 .Contenedor{
     background-color: rgb(72, 243, 4);
@@ -30,4 +30,36 @@ header{
 }
 aside{
     background-color: darkmagenta;   
+}
+/* Menu */
+.menu li{
+    display: inline-block;
+}
+li a, btnDesplegable{
+    display: inline-block;
+    color: blanchedalmond;
+    padding: 0.9em 1em;
+    text-align: center;
+    text-decoration: none;
+}
+.contenidoDesplegable{
+    display: none;
+    position: absolute;
+    background-color: rgb(229, 234, 240);
+    min-width: 8em;
+}
+.contenidoDesplegable a{
+    color: black;
+    padding: 0.9em 1em;
+    display:block ;
+    text-align: left;
+}
+.contenidoDesplegable a:hover{
+    background-color: darkblue;
+}
+.desplegable:hover .contenidoDesplegable{
+    display: block;
+}
+li a:hover{
+    background-color: brown;
 }
